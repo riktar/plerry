@@ -1,6 +1,6 @@
 # Welcome to Plerry!
 
-Plerry is a javascript pluggable system for nodeJS that allows you to easily extend the functionality of your nodeJS application.
+Plerry is a javascript pluggable system that allows you to easily extend the functionality of your NodeJS application.
 
 ```js
 // Complete example
