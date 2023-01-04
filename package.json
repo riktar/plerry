@@ -1,14 +1,21 @@
 {
   "name": "plerry",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "Plerry.js",
   "scripts": {
     "test": "tap --ts \"test/**/*.test.ts\" --jobs=1",
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "clean:pkg": "node scripts/clean-package-json.js",
+    "restore:pkg": "node scripts/restore-package-json.js",
+    "prepare": "npm run clean:pkg && npm run build",
+    "postpublish": "npm run restore:pkg"
   },
   "keywords": [],
+  "files": [
+    "dist"
+  ],
   "author": "Riccardo Tartaglia",
   "license": "ISC",
   "devDependencies": {
