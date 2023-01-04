@@ -1,9 +1,12 @@
-# Welcome to Plerry!
+# Plerry⚡Supercharge your Node Applications
+> Plerry is a pluggable system that makes it easy for developers to extend the functionality of their NodeJS applications.
 
-Plerry is a javascript pluggable system that allows you to easily extend the functionality of your NodeJS application.
+[![npm version](https://badge.fury.io/js/plerry.svg)](https://badge.fury.io/js/plerry)
+
+
+With Plerry, you can quickly and easily add new features to your app, without having to spend hours coding and debugging
 
 ```js
-// Complete example
 const Plerry = require('plerry');
 const plerry = new Plerry();
 
