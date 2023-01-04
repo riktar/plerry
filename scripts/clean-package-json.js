@@ -28,8 +28,8 @@ if (pkgData.repository) delete pkgData.repository
 if (pkgData.config) delete pkgData.config
 
 // Update main and types endpoints for dist folder
-pkgData.main = './dist/Plerry.js'
-pkgData.types = './dist/Plerry.d.ts'
+// pkgData.main = './dist/Plerry.js'
+// pkgData.types = './dist/Plerry.d.ts'
 
 // Overwrite original `package.json` with new data (i.e. minus the specific data).
 fs.writeFile(ORIG_PKG_PATH, JSON.stringify(pkgData, null, 2), function (err) {
