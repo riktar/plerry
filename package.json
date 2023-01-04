@@ -9,7 +9,7 @@
     "watch": "tsc -w",
     "clean:pkg": "node scripts/clean-package-json.js",
     "restore:pkg": "node scripts/restore-package-json.js",
-    "prepare": "npm run clean:pkg && npm run build",
+    "prepare": "npm run build && npm run clean:pkg",
     "postpublish": "npm run restore:pkg"
   },
   "keywords": [],

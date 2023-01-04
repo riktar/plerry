@@ -14,7 +14,7 @@ fs.writeFile(CACHED_PKG_PATH, JSON.stringify(pkgData), function (err) {
 })
 
 // Remove all scripts
-if (pkgData.scripts) delete pkgData.scripts
+// if (pkgData.scripts) delete pkgData.scripts
 
 
 // Remove all dev dependencies
