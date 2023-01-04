@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "target": "ES5",
-    "module": "commonjs",
+    "target": "esnext",
     "moduleResolution": "node",
     "declaration": true,
     "pretty": true,
