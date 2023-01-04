@@ -148,4 +148,4 @@ export interface PlerryInstance extends Plerry {
   [key: string]: any;
 }
 
-export default Plerry;
+module.exports = Plerry;
