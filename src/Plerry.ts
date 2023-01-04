@@ -149,3 +149,4 @@ export interface PlerryInstance extends Plerry {
 }
 
 module.exports = Plerry;
+export default Plerry;
