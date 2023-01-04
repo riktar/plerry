@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "target": "ES5",
+    "target": "ESNext",
     "module": "CommonJS",
     "moduleResolution": "node",
     "declaration": true,
@@ -17,7 +17,7 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "lib": [
-      "ES5"
+      "ESNext"
     ],
     "outDir": "dist",
     "sourceMap": false
