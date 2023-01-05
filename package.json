@@ -1,9 +1,9 @@
 {
   "name": "plerry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Tiny Pluggable system for Node.js",
-  "main": "./dist/Plerry.js",
-  "types": "./dist/Plerry.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "tap --ts \"test/**/*.test.ts\" --jobs=1",
     "build": "tsc",
