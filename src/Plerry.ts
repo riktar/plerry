@@ -138,8 +138,8 @@ class Plerry {
     this.em.on(event, listener);
   };
 
-  decorate(name: string, value: any) {
-    if (this.container.has(name)) throw new Error(`Plerry: ${name} already exists in container`)
+  decorate(name: string, value: any, force: boolean = false) {
+    if (!force && this.container.has(name)) throw new Error(`Plerry: ${name} already exists in container`)
     this.container.set(name, value);
   }
 }
